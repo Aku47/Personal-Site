@@ -1,0 +1,162 @@
+body {
+  color: #40514E;
+  background-color: #f3f4f6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #EAF6F6;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: 	#f61e1e;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #383DD0;
+  font-size: 1.4rem;
+}
+
+hr {
+border: dotted #bcbdbd 6px;
+border-bottom: none;
+width: 4%;
+margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.35rem;
+}
+
+.main-img{
+  width: 30%;
+}
+
+.profile-img{
+  border-radius: 50%;
+
+}
+
+.intro {
+  width: 32%;
+  margin: auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #383DD0;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+  padding-top: 100px;
+
+
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #383DD0;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-img {
+  width: 20%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.tech-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.footer-link {
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px ;
+  text-decoration: none;
+
+}
+
+.footer-link:hover {
+  color: #E73E3E;
+}
+
+.copy-right {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #9b9ee7;
+  background-image: -webkit-linear-gradient(top, #9b9ee7, #4b50d4);
+  background-image: -moz-linear-gradient(top, #9b9ee7, #4b50d4);
+  background-image: -ms-linear-gradient(top, #9b9ee7, #4b50d4);
+  background-image: -o-linear-gradient(top, #9b9ee7, #4b50d4);
+  background-image: linear-gradient(to bottom, #9b9ee7, #4b50d4);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7073dd;
+  background-image: -webkit-linear-gradient(top, #7073dd, #3498db);
+  background-image: -moz-linear-gradient(top, #7073dd, #3498db);
+  background-image: -ms-linear-gradient(top, #7073dd, #3498db);
+  background-image: -o-linear-gradient(top, #7073dd, #3498db);
+  background-image: linear-gradient(to bottom, #7073dd, #3498db);
+  text-decoration: none;
+}
